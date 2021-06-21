@@ -3,6 +3,8 @@ package conversion;
 public class BinaryToDecimal {
 
     public static void main(String[] args) {
+        System.out.println("MMMM"+(2%10));
+
         int n = 100110;
         int res = 0;
         int mul = 1;
